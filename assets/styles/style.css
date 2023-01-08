@@ -3,9 +3,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
-body::-webkit-scrollbar {
-    display: none;
-  }
+
 .container{
     margin: 0 auto;
     max-width: 1140px;
@@ -142,6 +140,92 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     background-color: #fff4d8;
     border: 3px solid #403d38;
+}
+.contribute-section{
+    margin-top: 100px;
+    padding: 50px;
+}
+.contribute-content{
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+.contribute-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.contribute-desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.contribute-image img{
+    width: 500px;
+    border-radius: 10px;
+}
+.updates{
+    margin-top: 130px;
+}
+.updates-desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.subscribe{
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    margin-top: 77px ;
+}
+.subscribe-container{
+    text-align: center;
+    height: 200px;
+    background: #FFF4D6;
+    margin-bottom: 130px;
+}
+.subscribe-button{
+    border: 0;
+    width: 157px;
+    height: 48px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFFFF;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background: #0B0D17;
+    padding: 15px 0px;
+    
+}
+.footer-title{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+.footer-desc{
+    margin-bottom: 45px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
 }
 
 
