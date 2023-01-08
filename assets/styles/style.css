@@ -136,11 +136,12 @@ body::-webkit-scrollbar {
     color: #707070;
 }
 .plan{
-    padding: 54px 25px;
+    padding: 35px 25px;
 }
 .selected-plan{
     border-radius: 5px;
     background-color: #fff4d8;
+    border: 3px solid #403d38;
 }
 
 
